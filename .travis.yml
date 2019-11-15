@@ -11,7 +11,7 @@ script:
     -v $TRAVIS_BUILD_DIR/build:/build
     -v $TRAVIS_BUILD_DIR/build.sh:/build.sh
     --entrypoint=./build.sh
-    centos:7.6.1810
+    centos:7.7.1908
 
 deploy:
   provider: releases
